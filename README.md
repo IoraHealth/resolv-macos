@@ -50,7 +50,7 @@ git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygem
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/maxfierke/resolv-macos.
+Bug reports and pull requests are welcome on GitHub at https://github.com/IoraHealth/resolv-macos.
 
 
 ## License

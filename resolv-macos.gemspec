@@ -4,11 +4,11 @@ Gem::Specification.new do |spec|
   spec.name          = "resolv-macos"
   spec.version       = Resolv::Macos::VERSION
   spec.authors       = ["Max Fierke"]
-  spec.email         = ["max@maxfierke.com"]
+  spec.email         = ["max.fierke@iorahealth.com"]
 
   spec.summary       = %q{macOS multiple resolver support for Resolv}
   spec.description   = %q{Adds support for macOS's multiple resolver configs to Resolv's default set of resolvers.}
-  spec.homepage      = "https://github.com/maxfierke/resolv-macos"
+  spec.homepage      = "https://github.com/IoraHealth/resolv-macos"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
