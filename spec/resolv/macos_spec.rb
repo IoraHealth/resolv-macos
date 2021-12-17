@@ -22,6 +22,8 @@ RSpec.describe Resolv::Macos do
   end
 
   it 'sets up each resolver in the default set' do
+    skip unless /darwin/ =~ RUBY_PLATFORM
+
     Dir.mktmpdir do |resolvers_dir|
       File.open(File.join(resolvers_dir, "corp.internal"), "w") do |file|
         file.puts "nameserver 172.100.0.1"
